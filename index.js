@@ -1,4 +1,4 @@
-const TelegramBot = require("node-telegram-bot-api");
+﻿const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 require("dotenv").config();
 const express = require("express");
@@ -21,7 +21,7 @@ bot.on("message", async (msg) => {
   if (userInput == "/start") {
     bot.sendMessage(
       chatId,
-      "Hello ❤️! Welcome to Arijit's Weather-Bot. \n\n Enter a city name."
+      "Hello ❤️! Welcome to Sanket's Weather-Bot. \n\n Enter a city name."
     );
   } else {
     try {
